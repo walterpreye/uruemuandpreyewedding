@@ -131,3 +131,14 @@ footer {
 .wine { background: #722f37; }
 .brown { background: #7a4a2e; }
 .green { background: #2f6f4e; }
+
+.animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}
