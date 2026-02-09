@@ -103,3 +103,31 @@ footer {
   transform: scale(1.05);
   box-shadow: 0 15px 35px rgba(0,0,0,0.2);
 }
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.color-item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.cream { background: #f5f0e6; }
+.wine { background: #722f37; }
+.brown { background: #7a4a2e; }
+.green { background: #2f6f4e; }
